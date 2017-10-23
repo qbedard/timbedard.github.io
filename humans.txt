@@ -1,0 +1,18 @@
+/* TEAM */
+
+Tim Bedard
+info@timbedard.com
+Austin, Tx
+
+
+/* THANKS */
+
+you
+
+
+/* SITE */
+
+Last update: 2017-10-22
+Standards: HTML5, CSS3
+Components: Jekyll, Blueberry Muffin (Bootstrap, Font Awesome, SASS)
+Software: macOS, iTerm2, Vim
