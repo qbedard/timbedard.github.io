@@ -5,15 +5,13 @@
   </head>
   <body>
 
-    <nav role="navigation">
-      {% include nav.html %}
-    </nav>
-
     <header role="banner">
-      {% include header.html %}
+      {% include nav.html %}
     </header>
 
-    {{ content }}
+    <main id="content" role="main">
+      {{ content }}
+    </main>
 
     <footer role="contentinfo">
       {% include footer.html %}
