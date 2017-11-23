@@ -1,17 +1,15 @@
 <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-light">
 
-  <!-- Brand --!>
-  {% comment %} <div class="text-left"> {% endcomment %}
-    <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.name | escape }}</a>
-  {% comment %} </div> {% endcomment %}
-
   <!-- Collapse Button --!>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
+  <!-- Brand --!>
+  <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.name | escape }}</a>
+
   <!-- Pages --!>
-  <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
+  <div class="navbar-collapse collapse" id="collapsingNavbar">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
       <ul class="navbar-nav">
@@ -25,5 +23,7 @@
         {% endfor %}
       </ul>
   </div>
+
+  <div></div>
 
 </nav>
