@@ -1,4 +1,19 @@
 ---
-layout: default
+layout: page
 ---
-{{ content }}
+
+<div class="blog">
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% assign _items = site.cv | where: "category", page.category | sort: "year" %}
+    {% for item in _items %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>{% if item.who %}, {{ item.who }}{% endif
+        %} - {{ item.role }}
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
