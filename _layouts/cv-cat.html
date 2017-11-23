@@ -2,18 +2,26 @@
 layout: page
 ---
 
-<div class="blog">
+<div class="container">
 
   {{ content }}
 
-  <ul class="post-list">
+  <div class="row justify-content-center">
+
     {% assign _items = site.cv | where: "category", page.category | sort: "year" %}
+
     {% for item in _items %}
-      <li>
-        <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>{% if item.who %}, {{ item.who }}{% endif
-        %} - {{ item.role }}
-      </li>
+      <div class="card">
+        {% comment %} <img src="..." / class="card-img-top"> {% endcomment %}
+        <div class="card-body">
+          <a href="{{ item.url | relative_url }}" class="card-title">{{ item.title | escape }}</a>
+          <div class="card-subtitle">
+            {% if item.who %}{{ item.who }}{% endif %} - {{ item.role }}
+          </div>
+        </div>
+      </div>
     {% endfor %}
-  </ul>
+
+  </div>
 
 </div>
