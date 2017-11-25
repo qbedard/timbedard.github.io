@@ -5,8 +5,8 @@ tags: tv
 year: 2012
 who: Hardly Sound
 role: music
+youtube: "J-1gKu4ucM4"
 ---
-{% include youtube.html vid="J-1gKu4ucM4" %}
 * what: "Emcee Eats" (episode)
 * when: 2012
 * who: [Hardly Sound](http://video.klru.tv/show/hardly-sound/)

@@ -11,14 +11,23 @@ layout: page
     {% assign _items = site.cv | where: "category", page.category | sort: "year" %}
 
     {% for item in _items %}
-      <div class="card">
-        {% comment %} <img src="..." / class="card-img-top"> {% endcomment %}
+      <div class="card w-25">
+
+        {% if item.img != null %}
+          <img src="{{ item.img | replace: '..' site.url }}" class="card-img-top" />
+        {% else %}
+          {% if item.youtube != null %}
+            <img src="{% include youtube-thumb-url.html vid=item.youtube %}" class="card-img-top" />
+          {% endif %}
+        {% endif %}
+
         <div class="card-body">
           <a href="{{ item.url | relative_url }}" class="card-title">{{ item.title | escape }}</a>
           <div class="card-subtitle">
             {% if item.who %}{{ item.who }}{% endif %} - {{ item.role }}
           </div>
         </div>
+
       </div>
     {% endfor %}
 

@@ -6,8 +6,8 @@ year: 2012
 who: Scisbot
 role: music and sound
 italicize: true
+youtube: "8PShI51-ciM"
 ---
-{% include youtube.html vid="8PShI51-ciM" %}
 * what: [_Hexatron_](http://scisbot.com/?p=33)
 * when: 2012
 * where: SA GameDev Compo

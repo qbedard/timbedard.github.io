@@ -2,8 +2,8 @@
 title: wahrk
 category: music
 role: music
+youtube: "J18YJvw9pqE"
 ---
-{% include youtube.html vid="J18YJvw9pqE" %}
 * what: [wahrk](http://wahrk.com)
 * when: since 2007
 * role: music

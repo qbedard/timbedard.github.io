@@ -5,6 +5,7 @@ tags: workshop
 year: 2011
 who: Skillshare Austin
 role: instructor
+img: "../img/skillshare.jpg"
 ---
 * what: Audio DSP Workshop
 * when: 2011

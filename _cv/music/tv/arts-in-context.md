@@ -5,8 +5,8 @@ tags: tv
 year: 2013
 who: Arts in Context
 role: music
+youtube: "zyBRRjY-J6o"
 ---
-{% include youtube.html vid="zyBRRjY-J6o" %}
 * what: "The Intergalactic Nemesis" (episode)
 * when: 2013
 * who: [Arts in Context](http://klru.org/artsincontext/)
