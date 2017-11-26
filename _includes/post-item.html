@@ -1,0 +1,28 @@
+<a href="{{ post.url | absolute_url }}" class="list-group-item list-group-item-action flex-column align-items-start">
+  <div class="row">
+  {% comment %}
+    {% if post.img %}
+      <div class="col-sm">
+        <img src="{{ post.img | replace: '..', site.url }}" class="img-fluid w-25" />
+      </div>
+    {% else %}
+      {% if post.youtube %}
+        <div class="col-sm">
+          <img src="{% include youtube-thumb-url.html vid=post.youtube %}" class="card-img-top" />
+        </div>
+      {% endif %}
+    {% endif %}
+    {% endcomment %}
+
+    <div class="col-sm">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{ post.title }}</h5>
+        <small>{{  post.date | date: "%b %-d, %Y" }}</small>
+      </div>
+      {% comment %} <p class="mb-1">{{ post.excerpt }}</p> {% endcomment %}
+      {% if post.tags %}
+        <small>{% for tag in post.tags %}{{ tag }} {% endfor %}</small>
+      {% endif %}
+    </div>
+  </div>
+</a>
