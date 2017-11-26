@@ -1,6 +1,6 @@
-<div class="card w-25">
+<div class="card card-action" style="width: 275px;">
 
-  {% if item.img != null %}
+  {% if item.img %}
     <img src="{{ item.img | replace: '..', site.url }}" class="card-img-top" />
   {% else %}
     {% if item.youtube %}
@@ -12,11 +12,12 @@
 
     <a href="{% if item.external_url %}{{ item.external_url }}{% else %}{{ item.url | relative_url }}{% endif %}" class="card-title">{{ item.title | escape }}</a>
 
-    <div class="card-subtitle">
-      {% if item.who %}{{ item.who }}{% endif %}{% if item.role %} - {{ item.role }}{% endif %}
+    <div class="card-subtitle small text-muted">
+      {% if item.who %}{{ item.who }}{% endif %}
     </div>
 
     <div class="card-text">
+      {% if item.role %}{{ item.role }}{% endif %}
       {% if item.summary %}{{ item.summary }}{% endif %}
     </div>
 

@@ -4,7 +4,7 @@ category: music
 tags: game videogame gamejam ggj
 year: 2013
 who: Global Game Jam 2013
-role: music and sound
+role: music, sound
 italicize: true
 img: "http://2013.globalgamejam.org/sites/default/files/styles/large/public/screenshots/2013/Final%20Screen.jpg"
 ---

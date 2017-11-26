@@ -4,7 +4,7 @@ category: music
 tags: game videogame gamejam ggj
 year: 2012
 who: Global Game Jam 2012
-role: music and sound
+role: music, sound
 img: "../img/ouroboros.jpg"
 ---
 * what: _Ring Raze_

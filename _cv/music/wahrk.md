@@ -1,7 +1,7 @@
 ---
 title: wahrk
 category: music
-role: music
+role: everything
 youtube: "J18YJvw9pqE"
 ---
 * what: [wahrk](http://wahrk.com)

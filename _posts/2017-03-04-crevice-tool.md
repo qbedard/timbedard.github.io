@@ -2,6 +2,7 @@
 layout: post
 title: "Crevice Tool"
 category: wahrk
+tags: album
 ---
 
 Finally released a collab that [Daed](http://daedmusic.com/) and I have been sitting on for almost 4 years.

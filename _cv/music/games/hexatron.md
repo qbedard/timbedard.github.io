@@ -4,7 +4,7 @@ category: music
 tags: game videogame gamejam
 year: 2012
 who: Scisbot
-role: music and sound
+role: music, sound
 italicize: true
 youtube: "8PShI51-ciM"
 ---
