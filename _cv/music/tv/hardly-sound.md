@@ -1,7 +1,7 @@
 ---
 title: "\"Emcee Eats\""
 category: music
-tags: tv 
+tags: tv feature
 year: 2012
 who: Hardly Sound
 role: music
