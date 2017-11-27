@@ -1,4 +1,11 @@
 ---
 layout: page
 ---
+<div class="list-inline-group pb-3">
+  {% if page.category %}<span class="badge badge-secondary">{{ page.category }}</span> {% endif %}
+  {% if page.tags %}
+    {% for tag in page.tags %}<span class="badge badge-secondary">{{ tag }}</span> {% endfor %}
+  {% endif %}
+</div>
+
 {{ content }}

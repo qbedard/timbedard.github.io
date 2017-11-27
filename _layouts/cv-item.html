@@ -1,6 +1,14 @@
 ---
 layout: page
 ---
+<div class="list-inline-group pb-3">
+  {% if page.category %}<span class="badge badge-secondary">{{ page.category }}</span> {% endif %}
+  {% if page.tags %}
+    {% for tag in page.tags %}<span class="badge badge-secondary">{{ tag }}</span> {% endfor %}
+  {% endif %}
+</div>
+
 {% if page.img != null %}<img src="{{ page.img | replace: '..', site.url }}" class="img-fluid mh-100" />{% endif %}
 {% if page.youtube != null %}{% include youtube.html %}{% endif %}
+
 {{ content }}
