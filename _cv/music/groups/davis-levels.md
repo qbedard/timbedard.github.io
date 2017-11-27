@@ -1,7 +1,7 @@
 ---
 title: Davis Levels
 category: music
-tags: group band live
+tags: group band studio live
 year: 2011
 role: guitar, trumpet, keys
 youtube: "JnvMtVWR21Y"

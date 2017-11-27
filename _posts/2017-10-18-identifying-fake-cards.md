@@ -4,6 +4,8 @@ title: Identifying Fake Cards
 category: mtg
 img: "../img/real_led.jpg"
 ---
+Let's compare some conterfeit cards to the genuine article, shall we?
+
 This is an experiment long in the making. It consists of the following ingredients:
 * 1x Magic: The Gathering card
 * 1x counterfeit version of the same card

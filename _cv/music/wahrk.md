@@ -1,6 +1,7 @@
 ---
 title: wahrk
 category: music
+tags: studio live
 role: everything
 youtube: "J18YJvw9pqE"
 ---

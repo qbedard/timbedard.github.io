@@ -1,7 +1,7 @@
 ---
 title: Boonesboro
 category: music
-tags: group band live
+tags: group band studio live
 year: 2011
 role: guitar
 img: "../img/boonesboro.jpg"

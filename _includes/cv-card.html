@@ -48,7 +48,12 @@
 
       <div class="card-text">
         {% if item.role %}<em>{{ item.role }}</em>{% endif %}
-        {% if item.summary %}{{ item.summary }}{% endif %}
+        {% if item.summary %}<div>{{ item.summary }}</div>{% endif %}
+        {% if item.tags %}
+          <div>
+            {% for tag in item.tags %}<span class="badge badge-secondary">{{ tag }}</span> {% endfor %}
+          </div>
+        {% endif %}
       </div>
 
     </div>
