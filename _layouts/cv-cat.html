@@ -2,18 +2,14 @@
 layout: page
 ---
 
-<div class="container">
+{{ content }}
 
-  {{ content }}
+<div class="row list-group-inline justify-content-center">
 
-  <div class="row justify-content-center">
+  {% assign _items = site.cv | where: "category", page.category | sort: "year" %}
 
-    {% assign _items = site.cv | where: "category", page.category | sort: "year" %}
-
-    {% for item in _items %}
-      {% include cv-card.html %}
-    {% endfor %}
-
-  </div>
+  {% for item in _items %}
+    {% include cv-card.html %}
+  {% endfor %}
 
 </div>

@@ -1,26 +1,57 @@
-<div class="card card-action" style="width: 275px;">
+{% comment %}
+<a href="{% if item.external_url %}{{ item.external_url }}{% else %}{{ item.url | relative_url }}{% endif %}" list-group-item list-group-item-action">
 
-  {% if item.img %}
-    <img src="{{ item.img | replace: '..', site.url }}" class="card-img-top" />
-  {% else %}
-    {% if item.youtube %}
-      <img src="{% include youtube-thumb-url.html vid=item.youtube %}" class="card-img-top" />
+    {% if post.img %}
+      <div class="col-sm">
+        <img src="{{ post.img | replace: '..', site.url }}" class="img-fluid w-25" />
+      </div>
+    {% else %}
+      {% if item.youtube %}
+        <div class="col-sm">
+          <img src="{% include youtube-thumb-url.html vid=item.youtube %}" class="card-img-top" />
+        </div>
+      {% endif %}
     {% endif %}
-  {% endif %}
 
-  <div class="card-body">
-
-    <a href="{% if item.external_url %}{{ item.external_url }}{% else %}{{ item.url | relative_url }}{% endif %}" class="card-title">{{ item.title | escape }}</a>
-
-    <div class="card-subtitle small text-muted">
-      {% if item.who %}{{ item.who }}{% endif %}
+    <div class="col-sm">
+      <div class="d-flex w-25">
+        <h5 class="mb-1">{{ item.title }}</h5>
+      </div>
     </div>
+  </div>
 
-    <div class="card-text">
-      {% if item.role %}{{ item.role }}{% endif %}
-      {% if item.summary %}{{ item.summary }}{% endif %}
+</a>
+{% endcomment %}
+
+<a href="{% if item.external_url %}{{ item.external_url }}{% else %}{{ item.url | relative_url }}{% endif %}" class="card list-group-item list-group-item-action d-inline-flex p-0" style="width: 275px;">
+  <div class="w-100">
+
+    {% if item.img %}
+      <div class="text-center w-100">
+        <img src="{{ item.img | replace: '..', site.url }}" class="img-fluid" />
+      </div>
+    {% else %}
+      {% if item.youtube %}
+        <div class="text-center">
+          <img src="{% include youtube-thumb-url.html vid=item.youtube %}" class="img-fluid" />
+        </div>
+      {% endif %}
+    {% endif %}
+
+    <div class="card-body">
+
+      <div class="h5">{{ item.title | escape }}</div>
+
+      <div class="card-subtitle small text-muted">
+        {% if item.who %}{{ item.who }}{% endif %}
+      </div>
+
+      <div class="card-text">
+        {% if item.role %}<em>{{ item.role }}</em>{% endif %}
+        {% if item.summary %}{{ item.summary }}{% endif %}
+      </div>
+
     </div>
 
   </div>
-
-</div>
+</a>
