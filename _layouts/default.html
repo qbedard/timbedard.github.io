@@ -6,6 +6,8 @@
   <body>
 
     <header role="banner">
+      {% if page.category %}{% assign nav_cat = page.category %}{% endif %}
+      {% if page.layout == 'post' or page.title == 'Blog' %}{% assign nav_cat = 'blog' %}{% endif %}
       {% include nav.html %}
     </header>
 
