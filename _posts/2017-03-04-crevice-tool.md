@@ -3,8 +3,9 @@ layout: post
 title: "Crevice Tool"
 category: wahrk
 tags: album
+img: "http://f4.bcbits.com/img/a4235798403_16.jpg"
+excerpt: Finally released a collab that **Daed** and I have been sitting on for almost 4 years.
 ---
-
 Finally released a collab that [Daed](http://daedmusic.com/) and I have been sitting on for almost 4 years.
 
 <div class="container text-center">
