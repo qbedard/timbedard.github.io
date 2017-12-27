@@ -18,7 +18,7 @@ This is the real deal:
 
 ![actual card]({{ "/img/real_led.jpg" | absolute_url }}){:.img-fluid .w-75}
 
-Look at that crisp '0'.
+Look at that crisp '0'. Much of the black text on Magic cards is actually printed as its own layer on top of the rest of the card. Because of this, the text should lay *on top* of the color "rosettes".
 
 This is the imitation:
 
