@@ -26,11 +26,11 @@ This is the imitation:
 
 and here are the tools:
 
-[an inexpensive jeweller's loupe](https://www.amazon.com/gp/product/B0052G7EX8/)
+[an inexpensive jeweller's loupe](https://amazon.com/gp/product/B0052G7EX8/)
 
 ![jeweller's loupe]({{ "/img/loupe.jpg" | absolute_url }}){:.img-fluid .w-75}
 
-[a decent flashlight](http://www.eagletac.com/html/d25aaa/specs.html)
+[a decent flashlight](http://eagletac.com/html/d25aaa/specs.html)
 
 ![flashlight]({{ "/img/flashlight.jpg" | absolute_url }}){:.img-fluid .w-75}
 

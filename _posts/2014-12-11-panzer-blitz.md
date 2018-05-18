@@ -10,4 +10,4 @@ excerpt: Made in conjunction with **Friggin Games** and **Ignis Studios** for **
 
 <iframe width="75%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/180481161&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
 
-Made in conjunction with [Friggin' Games](https://www.facebook.com/FrigginGames/) and [Ignis Studios](http://ignisstudios.com/) for [Ludum Dare 31](http://ludumdare.com).
+Made in conjunction with [Friggin' Games](https://facebook.com/FrigginGames/) and [Ignis Studios](http://ignisstudios.com/) for [Ludum Dare 31](http://ludumdare.com).
