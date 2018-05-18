@@ -4,7 +4,7 @@ category: misc
 tags: game rpg writing
 year: 2015
 role: Creative Director
-img: "http://drivethrurpg.com/images/4541/148551.jpg"
+img: "https://drivethrurpg.com/images/4541/148551.jpg"
 ---
 
 * what: [The Golden Bandit & Other Rangston
