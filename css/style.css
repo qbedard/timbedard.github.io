@@ -2,12 +2,8 @@ body {
   background-color: #fdfdfd;
 }
 
-#portrait {
-  max-height: 550px;
-}
-
-.carddddd {
-  width: 200px;
+#splash {
+  max-height: 800px;
 }
 
 .img-bg {
