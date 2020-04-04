@@ -2,6 +2,7 @@
 title: dotfiles
 category: software
 tags: vim shell
+year: 9000
 external_url: https://github.com/timbedard/dotfiles
-summary: "These are my config files."
+summary: "config files"
 ---

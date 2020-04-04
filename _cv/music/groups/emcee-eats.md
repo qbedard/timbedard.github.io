@@ -2,6 +2,7 @@
 title: Emcee Eats
 category: music
 tags: group collab studio
+year: 2019
 role: beats
 youtube: "ganW6cSZJds"
 ---

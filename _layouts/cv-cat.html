@@ -5,7 +5,7 @@ layout: page
 
 <div class="row list-group-inline justify-content-center">
 
-  {% assign _items = site.cv | where: "category", page.category | sort: "year" %}
+  {% assign _items = site.cv | where: "category", page.category | sort: "year" | reverse %}
 
   {% for item in _items %}
     {% include cv-card.html %}

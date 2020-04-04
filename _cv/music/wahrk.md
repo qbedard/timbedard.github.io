@@ -2,6 +2,7 @@
 title: wahrk
 category: music
 tags: studio live
+year: 9000
 role: everything
 youtube: "J18YJvw9pqE"
 ---
