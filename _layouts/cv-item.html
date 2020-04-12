@@ -9,6 +9,7 @@ layout: page
 </div>
 
 {% if page.img != null %}<img src="{{ page.img | replace: '..', site.url }}" class="img-fluid mh-100" />{% endif %}
+{% if page.vimeo != null %}{% include vimeo.html %}{% endif %}
 {% if page.youtube != null %}{% include youtube.html %}{% endif %}
 
 {{ content }}
