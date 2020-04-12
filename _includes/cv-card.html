@@ -31,6 +31,11 @@
         <img src="{{ item.img | replace: '..', site.url }}" class="img-fluid" />
       </div>
     {% else %}
+      {% if item.vimeo-img %}
+        <div class="text-center">
+          <img src="{% include vimeo-thumb-url.html img=item.vimeo-img %}" class="img-fluid" />
+        </div>
+      {% endif %}
       {% if item.youtube %}
         <div class="text-center">
           <img src="{% include youtube-thumb-url.html vid=item.youtube %}" class="img-fluid" />
